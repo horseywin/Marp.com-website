@@ -79,13 +79,11 @@ header a:hover {
 }
 
 .featured {
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    
-    
-    
+    margin: 0 2rem;
     color: white;
     background-color: rgb(102, 102, 44);
     border-radius: 1rem;

@@ -1,4 +1,4 @@
-This is really just a simple website made using HTML and CSS
+This is really just a simple website made using HTML and CSS 😅
 
 I wanted to see what I could make quickly without any Javascript or Python
 
