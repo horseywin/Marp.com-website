@@ -81,12 +81,37 @@ header a:hover {
 .featured {
     box-sizing: border-box;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: fit-content;
     margin: 0 2rem;
     color: white;
     background-color: rgb(102, 102, 44);
     border-radius: 1rem;
+}
+
+.featured h1 {
+    padding: 1rem 0;
+}
+
+.food {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.food img {
+    width: 20%;
+}
+
+main {
+    display: flex;
+    width: 100vw;
+    padding: 2rem;
+    margin: 0;
+    justify-content: center;
 }
 
 .sidebar {
@@ -103,14 +128,6 @@ header a:hover {
 
 .sidebar h1 {
     display: flex;
-    justify-content: center;
-}
-
-main {
-    display: flex;
-    width: 100vw;
-    padding: 2rem;
-    margin: 0;
     justify-content: center;
 }
 
